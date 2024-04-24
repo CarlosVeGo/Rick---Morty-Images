@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+.dis{
+    display: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -20,4 +30,21 @@
 
 h1{
     text-align: center;
+}
+
+.botones{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: red;
 }
